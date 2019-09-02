@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_news_feed"
+        android:icon="@drawable/news_feed"
+        android:title="@string/news_feed" />
+
+    <item
+        android:id="@+id/nav_friends"
+        android:icon="@drawable/friends"
+        android:title="@string/friends" />
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/chat"
+        android:title="@string/chat" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/notifications"
+        android:title="@string/notification" />
+</menu>

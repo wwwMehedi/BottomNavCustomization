@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Chat">
+        <menu>
+            <item
+                android:id="@+id/nev_private"
+                android:icon="@drawable/chat"
+                android:title="private_" />
+
+            <item
+                android:id="@+id/nev_public"
+                android:icon="@drawable/chat"
+                android:title="group" />
+        </menu>
+    </item>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news_feed"
+            android:icon="@drawable/ic_news_feed"
+            android:title="@string/news_feed" />
+
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_news_feed"
+            android:title="@string/friends" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_news_feed"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_notifications_1"
+            android:icon="@drawable/ic_news_feed"
+            android:title="@string/notification" />
+    </group>
+
+
+
+
+
+</menu>
